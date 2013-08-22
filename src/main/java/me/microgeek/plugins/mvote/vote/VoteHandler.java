@@ -1,20 +1,17 @@
 package me.microgeek.plugins.mvote.vote;
 
+import com.vexsoftware.votifier.model.Vote;
+import com.vexsoftware.votifier.model.VotifierEvent;
 import java.util.List;
-
 import me.microgeek.plugins.mvote.Wrapper;
 import me.microgeek.plugins.mvote.util.Util;
 import me.microgeek.plugins.mvote.util.config.ConfigWrapper;
-
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.scheduler.BukkitRunnable;
-
-import com.vexsoftware.votifier.model.Vote;
-import com.vexsoftware.votifier.model.VotifierEvent;
 
 public class VoteHandler implements Listener{
 

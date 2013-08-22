@@ -3,9 +3,7 @@ package me.microgeek.plugins.mvote.util.config;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
-
 import me.microgeek.plugins.mvote.Wrapper;
-
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 
